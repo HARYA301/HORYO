@@ -1,7 +1,7 @@
 {
     "textures": {
         "particle": "block/brewing_stand",
-        "stand": "block/brewing_stand"
+        "stand": "block/brewing_stand3"
     },
     "elements": [
         {   "from": [ 8, 0, 8 ],
