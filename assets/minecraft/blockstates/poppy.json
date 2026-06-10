@@ -3,10 +3,6 @@
         "": [
             { "model": "block/poppy/poppy"},
             { "model": "block/poppy/poppy_2"},
-            { "model": "block/poppy/poppy_3"},
-            { "model": "block/poppy/poppy_4"},
-            { "model": "block/poppy/poppy_5"},
-            { "model": "block/poppy/poppy_6"}
-        ]
+            { "model": "block/poppy/poppy_3"}]
     }
-}
+    }

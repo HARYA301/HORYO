@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/bush/bush"},
-            { "model": "block/bush/bush_2"}
-        ]
-    }
-}
