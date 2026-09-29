@@ -1,0 +1,44 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/dandelion_top0",
+		"particle": "block/dandelion_top0",
+		"cross": "block/dandelion_stem0"
+	},
+	"elements": [
+		{
+			"from": [-3.2, 0, 12],
+			"to": [11.2, 2, 12],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#cross"},
+				"south": {"uv": [16, 14, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [4, 0, 4.8],
+			"to": [4, 2, 19.2],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 14, 16, 16], "texture": "#cross"},
+				"west": {"uv": [16, 14, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [0, 2.01, 0],
+			"to": [16, 2.01, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}
