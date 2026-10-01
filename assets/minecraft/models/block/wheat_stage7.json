@@ -1,0 +1,60 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/crop",
+	"textures": {
+		"1": "block/wheat_stage7_top",
+		"crop": "block/wheat_stage7",
+		"particle": "block/wheat_stage7_top"
+	},
+	"elements": [
+		{
+			"from": [2, -1, 0],
+			"to": [2, 15, 16],
+			"shade_direction_override": "up",
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [14, -1, 0],
+			"to": [14, 15, 16],
+			"shade_direction_override": "up",
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, -1, 2],
+			"to": [16, 15, 2],
+			"shade_direction_override": "up",
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, -1, 14],
+			"to": [16, 15, 14],
+			"shade_direction_override": "up",
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#crop"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, 10, 0],
+			"to": [16, 10, 16],
+			"faces": {
+				"north": {"uv": [0, 2, 16, 2], "texture": "#missing"},
+				"east": {"uv": [0, 2, 16, 2], "texture": "#missing"},
+				"south": {"uv": [0, 2, 16, 2], "texture": "#missing"},
+				"west": {"uv": [0, 2, 16, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}
