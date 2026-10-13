@@ -1,21 +1,9 @@
 {
     "variants": {
-      "": [
-        {
-          "model": "minecraft:block/coarse_dirt"
-        },
-        {
-          "model": "minecraft:block/coarse_dirt",
-          "y": 90
-        },
-        {
-          "model": "minecraft:block/coarse_dirt",
-          "y": 180
-        },
-        {
-          "model": "minecraft:block/coarse_dirt",
-          "y": 270
-        }
-      ]
+        "": [
+            { "model": "block/coarse_dirt/coarse_dirt"},
+            { "model": "block/coarse_dirt/coarse_dirt1"},
+			{ "model": "block/coarse_dirt/coarse_dirt2"}
+        ]
     }
-  }
+}
